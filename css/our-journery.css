@@ -1,0 +1,51 @@
+
+
+.card-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 120px 40px;
+
+    max-width: 1200px;
+    max-height: 400px;  
+    color: white;
+    background-color: blueviolet;
+}
+
+
+
+.card-container img {
+
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.heading-contant {
+    width: 800px;
+}
+
+.heading-contant h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+.heading-contant p {
+    font-size: 1.7rem ;
+
+}
+
+.heading-contant button {
+    
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background-color: rgb(119, 5, 226);
+    font-size: 1.5rem;
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box-navbar ul {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#box-navbar ul li {
+    list-style-type: none;
+    margin: 5px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+#box-hero {
+    min-height: 400px;
+    background-color: green;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+#box-hero .box-1 {
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+}
+
+#box-hero .box-2 {
+    border-radius: 5px;
+    width: 100%;
+    /* margin-top: 20px; */
+    height: 400px;
+    background-color: aqua;
+}
+
+
+#box-footer-1 {
+    min-height: 50px;
+    
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#box-footer-1 .box-1 {
+    border-radius: 5px;
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+#box-footer-1 .box-2 {
+    /* border-radius: 5px; */
+    width: 100%;
+    /* margin-top: 20px; */
+    height: 50px;
+    background-color: rgb(3, 3, 3);
+}
+
+
+
+/* Default styles for all screen sizes */
+
+/* Styles for screens up to 425 pixels */
+@media screen and (max-width: 426px) {
+    #box-navbar ul {
+      /* CSS styles for box-navbar at this screen size */
+      flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #box-navbar ul li {
+        letter-spacing: 5px;
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        width: 90%;
+        padding: 10px;
+        /* align-items: center; */
+        text-align: center;
+        
+    }
+    /* #box-navbar ul li span {
+        align-items: center ;
+    } */
+
+    #box-hero {
+        min-height: 400px;
+        background-color: green;
+        padding: 10px;
+        flex-direction: column;
+        gap: -2px;
+
+        
+    }
+
+    
+    #box-hero .box-1 {
+    
+        height: 200px;
+        background-color: aqua;
+    }
+    
+    #box-hero .box-2 {
+        
+        
+        margin-top: 20px;
+        height: 200px;
+        background-color: aqua;
+    }
+  }
+  
+  /* Styles for screens between 426 pixels and 768 pixels */
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    /* Add specific styles for this screen size range */
+  }
+  
+  /* Styles for screens larger than 768 pixels */
+  @media screen and (min-width: 769px) {
+    /* Add specific styles for larger screens */
+  }
+  
+  

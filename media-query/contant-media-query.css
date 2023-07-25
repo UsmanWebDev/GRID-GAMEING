@@ -1,0 +1,170 @@
+@media (max-width: 426px) {
+    .section-grid-profit {
+        flex-direction: column;
+        /* transform: translateX(130px); */
+        align-items: center;
+        justify-content: center;
+        /* padding: 50px; */
+        margin: 50px;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+    .section-grid-profit {
+        /* margin-top: 10px; */
+        /* height: 700px; */
+        /* padding: 20px; */
+        border: 2px orange;
+    }
+    .section-grid-profit-box-1 {
+        margin: 0px;
+
+    }
+    .section-grid-profit-box-2 {
+        transform: scale(0.5);
+        padding: 0px; 
+        margin: 0px;
+        background-color: black;
+
+    
+    }
+
+    .section-grid-profit-box-2 img {
+        transform: scale(0.8);
+        margin: 5px;
+        padding: 0px;
+    }
+    .header-img grid-profit {
+        z-index: 500;
+    }
+    .main-heading {
+        /* transform: scale(0.7); */
+        font-size: 30px;
+    }
+
+    .hero-content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu {
+         position: absolute;
+         left:  20px;
+    }
+
+    .section-our-journery {
+        display: none;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px 10px;
+        transform: scale(0.8);
+    }
+
+    .media-coverage-img {
+        margin: 0px;
+        /* position: absolute; */
+        /* background-color: red; */
+    }
+
+    .section-grid-non-profit {
+        transform: scale(0.8);
+        gap: 150px;
+        margin: 2px;
+    }
+
+    
+    
+    
+}
+
+
+
+/* table */
+
+
+@media (max-width: 768px) {
+    .section-grid-profit {
+        flex-direction: column;
+        /* transform: translateX(130px); */
+        align-items: center;
+        justify-content: center;
+        /* padding: 50px; */
+        margin: 50px;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+    .section-grid-profit {
+        /* margin-top: 10px; */
+        /* height: 700px; */
+        /* padding: 20px; */
+        border: 2px orange;
+    }
+    .section-grid-profit-box-1 {
+        margin: 0px;
+
+    }
+    .section-grid-profit-box-2 {
+        transform: scale(0.5);
+        padding: 0px; 
+        margin: 0px;
+        background-color: black;
+
+    
+    }
+
+    .section-grid-profit-box-2 img {
+        transform: scale(0.8);
+        margin: 5px;
+        padding: 0px;
+    }
+    .header-img grid-profit {
+        z-index: 500;
+    }
+    .main-heading {
+        /* transform: scale(0.7); */
+        font-size: 30px;
+    }
+
+    .hero-content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu {
+         position: absolute;
+         left:  20px;
+    }
+
+    .section-our-journery {
+        display: none;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px 10px;
+        transform: scale(0.8);
+    }
+
+    .media-coverage-img {
+        margin: 0px;
+        /* position: absolute; */
+        /* background-color: red; */
+    }
+
+    .section-grid-non-profit {
+        transform: scale(0.8);
+        gap: 150px;
+        margin: 2px;
+    }
+
+    
+    
+    
+}
