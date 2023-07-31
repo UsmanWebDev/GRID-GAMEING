@@ -41,13 +41,28 @@ function slidefun(n) {
   dot[counter - 1].className += " active";
 }
 
-// menu
-function toggleSidebar() {
-  const sidebar = document.querySelector(".sidebar");
-  sidebar.classList.toggle("open");
-}
+// // menu
+// function toggleSidebar() {
+//   const sidebar = document.querySelector(".sidebar");
+//   sidebar.classList.toggle("open");
+// }
 
-// Function to close the sidebar
-function closeSidebar() {
-  document.querySelector(".sidebar").classList.remove("open");
-}
+// // Function to close the sidebar
+// function closeSidebar() {
+//   document.querySelector(".sidebar").classList.remove("open");
+// }
+
+
+
+
+        // Function to open the sidebar
+        function openSidebar() {
+          document.querySelector('.sidebar').classList.add('open');
+        }
+        
+        // Function to close the sidebar
+        function closeSidebar() {
+          document.querySelector('.sidebar').classList.remove('open');
+        }
+
+

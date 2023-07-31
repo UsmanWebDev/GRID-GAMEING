@@ -1,0 +1,129 @@
+
+
+
+    <style>
+        .container {
+            min-height: 500px;
+            /* background-color: blueviolet; */
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            transform: scale(0.9);
+
+        }
+
+        .box {
+            height: 400px;
+            width: 400px;
+            margin: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .img-box {
+            
+            height: 300px;
+            width: 400px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .Img-1 {
+            background-image: url(../assets/images/MC-Image-1.png);
+        }
+
+        .Img-2 {
+            background-image: url(../assets/images/MC-Image-2.png);
+        }
+
+        .Img-3 {
+            background-image: url(../assets/images/MC-Image-3.png);
+        }
+        .contant-box {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            width: 80%;
+            transform: translateX(-15px);
+            
+        }
+
+        .contant-box span {
+            margin-bottom: 10px;
+            font-size: 2rem;
+            background-color: rgb(129, 129, 129);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .contant-box p {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        .heading-media-coverage {
+            margin-top:5%;
+        }
+
+        @media (max-width:426px){
+            .container {
+                flex-direction: column;
+                /* transform: scale(0.5); */
+            }
+        }
+
+        @media (max-width:320px){
+            .container {
+                transform: scale(0.7);
+            }
+        }
+
+        @media (max-width:768px){
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+
+<center class="heading-media-coverage">
+
+    <h1>MEDIA COVERAGE</h1>
+    <h1>CHECK SOME OF TEAM MEMBER</h1>
+</center>
+
+
+
+    <div class="container">
+        <div class="box">
+            <div class="img-box Img-1"></div>
+            <div class="contant-box">
+
+                <span>view more</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dignissimos.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img-box Img-2"></div>
+            <div class="contant-box">
+
+                <span>view more</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dignissimos.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img-box Img-3"></div>
+            <div class="contant-box">
+
+                <span>view more</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dignissimos.</p>
+            </div>
+        </div>
+    </div>
+    
+

@@ -1,30 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+<style>
+    .nav-base {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: red; */
+    padding: 30px 50px;
+    /* transform: translateX(100px); */
+}
 
-    <link rel="stylesheet" href="navbar.css" />
-  </head>
-  <body>
-    <navbar class="nav-base">
-      <div class="nav-logo">
-        <div class="logo">
-          <img src="./assets/images/svg-images/Union.svg" />
-        </div>
+
+.nav-items {
+    text-transform: uppercase;
+    /* width: 80%; */
+    font-size: 1.2rem;
+    transform: translateX(-100px);
+}
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    list-style-type: none;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.nav-items ul li {
+    padding: 10px;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    font-weight: 1rem;
+    color: white;
+}
+.nav-items ul li a:hover{
+    text-decoration: none;
+    color:purple;
+}
+
+
+
+@media (max-width:426px) {
+  .nav-base {
+    display: none;
+  }
+}
+
+
+@media (max-width:768px) {
+  .nav-base {
+    display: none;
+  }
+}
+
+
+  
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<navbar class="nav-base">
+    <div class="nav-logo">
+      <div class="logo">
+        <img src="../assets/images/svg-images/Union.svg" />
       </div>
-      <div class="nav-items">
-        <ul>
-          <li><a href="index.html" id="current-page">home</a></li>
-          <li><a href="grid-profit.html">grid-for profit</a></li>
-          <li><a href="grid-for-non-profit.html">grid-for non profit</a></li>
-          <li><a href="our-journery.html">our journery</a></li>
-          <li><a href="media-coverage.html">media coverage</a></li>
-          <li><a href="gallery.html">gallery</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </div>
-    </navbar>
-  </body>
-</html>
+    </div>
+    <div class="nav-items">
+      <ul>
+        <li><a href="../pages/index.html" id="current-page">home</a></li>
+        <li><a href="../pages/grid-profit.html">grid-for profit</a></li>
+        <li><a href="../pages/grid-for-non-profit.html">grid-for non profit</a></li>
+        <li><a href="../pages/our-journery.html">our journery</a></li>
+        <li><a href="../pages/media-coverage.html">media coverage</a></li>
+        <li><a href="../pages/gallery.html">gallery</a></li>
+        <li><a href="../pages/contact.html">contact</a></li>
+      </ul>
+    </div>
+  </navbar>

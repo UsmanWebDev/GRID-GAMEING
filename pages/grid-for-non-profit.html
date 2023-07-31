@@ -1,111 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>grid-gaming</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../global.css" />
-    <!-- <link rel="stylesheet" href="../css/slider.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
-    <!-- <link rel="stylesheet" href="../css/navbar.css"> -->
-    <link rel="stylesheet" href="../media-query/grid-profit-media-query.css">
-    <link rel="stylesheet" href="../media-query/grid-for-non-profit.css">
-    <link rel="stylesheet" href="../media-query/index-media-query.css">
-    <link rel="stylesheet" href="../css/sidebar.css">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>grid-gaming</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../global.css" />
+  <!-- <link rel="stylesheet" href="../css/slider.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+  <!-- <link rel="stylesheet" href="../css/navbar.css"> -->
+  <link rel="stylesheet" href="../media-query/grid-profit-media-query.css">
+  <link rel="stylesheet" href="../media-query/grid-for-non-profit.css">
+  <link rel="stylesheet" href="../media-query/index-media-query.css">
+  <link rel="stylesheet" href="../css/sidebar.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#media-coverage-frontpage-section-3").load("media-coverage-frontpage-section-3.html");
+      $("#navbar").load("navbar.html");
+      $("#footer").load("footer.html");
+      $("#our-team-section").load("our-team-section.html");
+      $("#Explore-our-joureney").load("Explore-our-joureney.html");
+      $("#sidebar").load("sidebar.html");
+
+    });
+  </script>
 
 
 </head>
 
-  <body>
-    <header class="header-img grid-profit">
+<body>
+  <header class="header-img grid-profit">
 
-      <!-- <div class="logo-min">
-        <img src="../assets/images/svg-images/Union.svg" alt="">
-      </div> -->
-      <div class="menu">
-        <img style="background-color: transparent;" onclick="toggleSidebar()" src="../assets/images/icon/icons8-menu-50.png" alt="menu">
-        <!-- <button style="background-color: transparent;" onclick="toggleSidebar()"><img src="../assets/images/icon/icons8-menu.gif" alt="menu"></button> -->
-  
+
+
+    <navbar class="navbar">
+      <div class="nav-logo">
+        <div class="logo">
+          <img src="../assets/images/svg-images/Union.svg" />
+        </div>
       </div>
-
-
-      <div class="sidebar">
-
-        <img class="close-btn" onclick="closeSidebar()" height="30px" width="30px" src="../assets/images/icon/icons8-close.gif" alt="close">
-        <h2><img src="../assets/images/svg-images/Union.svg" alt=""></h2>
+      <div class="nav-items">
         <ul>
-            <li><a href="../pages/index.html" >home</a></li>
-            <li><a href="../pages/grid-profit.html" >grid-for profit</a></li>
-            <li><a href="../pages/grid-for-non-profit.html" id="current-page">grid-for non profit</a></li>
-            <li><a href="../pages/our-journery.html">our journery</a></li>
-            <li><a href="../pages/media-coverage.html">media coverage</a></li>
-            <li><a href="../pages/gallery.html">gallery</a></li>
-            <li><a href="contact.html">contact</a></li>
+          <li><a href="../pages/index.html">home</a></li>
+          <li><a href="../pages/grid-profit.html">grid-for profit</a></li>
+          <li><a href="../pages/grid-for-non-profit.html" id="current-page">grid-for non profit</a></li>
+          <li><a href="../pages/our-journery.html">our journery</a></li>
+          <li><a href="../pages/media-coverage.html">media coverage</a></li>
+          <li><a href="../pages/gallery.html">gallery</a></li>
+          <li><a href="../pages/contact.html">contact</a></li>
         </ul>
+      </div>
+    </navbar>
+    <div id="sidebar"></div>
+
+    <div class="main-heading">
+      <h2>grid-for-non-profit</h2>
     </div>
 
 
 
 
-      <navbar class="navbar">
-        <div class="nav-logo">
-          <div class="logo">
-            I<img src="../assets/images/svg-images/Union.svg" />
-          </div>
-        </div>
-        <div class="nav-items"> 
-          <ul>
-            <li><a href="../pages/index.html" >home</a></li>
-            <li><a href="../pages/grid-profit.html">grid-for profit</a></li>
-            <li><a href="../pages/grid-for-non-profit.html" id="current-page">grid-for non profit</a></li>
-            <li><a href="../pages/our-journery.html">our journery</a></li>
-            <li><a href="../pages/media-coverage.html">media coverage</a></li>
-            <li><a href="../pages/gallery.html">gallery</a></li>
-            <li><a href="../pages/contact.html">contact</a></li>
-          </ul>
-        </div>
-      </navbar>
-      <div class="hero-content">
-      <div class="main-heading">
-        <h2>grid-for-non-profit</h2>
-      </div>
+    </div>
 
-
-     
-      </div>
-    </header>
+  </header>
 
 
 
-    <div class="section-grid-non-profit">
- 
-      <div class="section-grid-non-profit-box-1">
-        <span>WHY KNOW ?</span>
-        <h2>GRID has opened up the possibility of using games to educate, engage and empower people in all aspects of their lives irrespective of where they live.
-        </h2>
+  <div class="section-grid-non-profit">
 
-        <p>We are at the cusp of the next big technology boom: the global penetration of smartphones. With 3.2 billion smartphone users worldwide and a global population of about 7.7 billion, the global smartphone penetration has reached 41.5 percent and is expected to grow exponentially over the next 5 years. We are looking at a world where smartphones as low as $20 are now available in areas where even toilets are a luxury. This boom opens a window of opportunity, to reach the poor through their phones and use simple mobile games as tools for behavior change. GRID is mainstreaming games in the social sector, not only in the US but also globally. By creating context-vigilant games (in local languages) for low-end smartphones, GRID has opened up the possibility of using games to educate, engage and empower people in all aspects of their lives irrespective of where they live.
+    <div class="section-grid-non-profit-box-1">
+      <span>WHY KNOW ?</span>
+      <h2>GRID has opened up the possibility of using games to educate, engage and empower people in all aspects of
+        their lives irrespective of where they live.
+      </h2>
 
-        </p>
-      </div>
-      <div class="section-grid-non-profit-box-2">
-        <img src="../assets/images/aboutus-.jpg" alt="">
-      </div>
-    
-        
+      <p>We are at the cusp of the next big technology boom: the global penetration of smartphones. With 3.2 billion
+        smartphone users worldwide and a global population of about 7.7 billion, the global smartphone penetration has
+        reached 41.5 percent and is expected to grow exponentially over the next 5 years. We are looking at a world
+        where smartphones as low as $20 are now available in areas where even toilets are a luxury. This boom opens a
+        window of opportunity, to reach the poor through their phones and use simple mobile games as tools for behavior
+        change. GRID is mainstreaming games in the social sector, not only in the US but also globally. By creating
+        context-vigilant games (in local languages) for low-end smartphones, GRID has opened up the possibility of using
+        games to educate, engage and empower people in all aspects of their lives irrespective of where they live.
+
+      </p>
+    </div>
+    <div class="section-grid-non-profit-box-2">
+      <img src="../assets/images/aboutus-.jpg" alt="">
     </div>
 
 
+  </div>
 
 
 
 
 
 
-  
-      <!-- footer -->
+  <div id="footer"></div>
+
+
+
+
+  <!-- 
 
 <div class="footer-container-bg">
  
@@ -163,56 +165,48 @@
       </div>
       </div>
     </div>
-    
 
-    
-
-
-    
-
- 
-     
-      
-     
-
-     
-   
-
-
-
-
-    
+  -->
 
 
 
 
 
-    
 
 
 
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <script src="../Javascript/script.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-          offset:120,
-          // delay: 2s, // values from 0 to 3000, with step 50ms
-
-          duration: 2000, // values from 0 to 3000, with step 50ms
-
-      });
-  </script>
 
 
-  
+</body>
 
-
-
-    
-
-  </body>
 </html>
