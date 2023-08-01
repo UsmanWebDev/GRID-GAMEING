@@ -168,3 +168,11 @@
     
     
 }
+
+@media (min-width:1026px) and (max-width:1900px){
+    #cu1 .section-grid-non-profit{
+        margin-top:50px;
+    }
+}
+
+

@@ -321,12 +321,12 @@ form button {
 
 .our-team-section {
   margin: auto;
-  max-width: 80%;
+  max-width: 120%;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .our-team-main-heading {
@@ -562,11 +562,7 @@ form button {
 .section-grid-non-profit {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 100px;
-
-  gap: 100px;
-  
+  align-items: center;  
 }
 
 
@@ -575,9 +571,9 @@ form button {
 
 .section-grid-non-profit-box-1 {
   /* background-color: #676767; */
-  padding: 25px;
+  padding: 15px;
   max-width: 700px;
-  margin: 50px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
