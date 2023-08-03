@@ -1,0 +1,11 @@
+@import url(./global.css);
+@import url(./css/our-journery.css);
+@import url(./css/slider.css);
+@import url(./media-query/contant-media-query.css);
+@import url(./media-query/gallery-media-query.css);
+@import url(./media-query/grid-for-non-profit.css);
+@import url(./media-query/grid-profit-media-query.css);
+@import url(./media-query/index-media-query.css);
+@import url(./media-query/media-coverage-media-query.css);
+@import url(./media-query/our-journery-media-query.css);
+
